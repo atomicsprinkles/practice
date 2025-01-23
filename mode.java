@@ -22,7 +22,7 @@ Sample Output :
 import java.io.*;
 import java.util.*;
 
-public class SETHSMELLS {
+public class Main {
   public static void main(String[] args) throws IOException {
     
     Scanner scan = new Scanner(new File("pr50.dat"));
