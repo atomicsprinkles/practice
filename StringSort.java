@@ -24,7 +24,7 @@ Foru Ceeehs Teiillnort Whit Saaegsu
 import java.util.*;
 import java.io.*;
 
-public class nillkig {
+public class Main {
   public static void main(String[] args) throws IOException {
     Scanner scan = new Scanner(new File("sort.dat"));
     int iterThru = scan.nextInt();
@@ -32,11 +32,11 @@ public class nillkig {
     scan.nextLine();
     
     for (int z = 0; z < iterThru; z++) {
-      String[] gyaaaat = scan.nextLine().split(" ");
+      String[] line = scan.nextLine().split(" ");
       
       String fin = "";
       
-      for (String b : gyaaaat) {
+      for (String b : line) {
         ArrayList<Character> strings = new ArrayList<>();
         String inst = "";
         
